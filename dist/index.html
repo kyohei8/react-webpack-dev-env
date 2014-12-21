@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>React Demo</title>
+  <!-- include react -->
+  <script src="../node_modules/react/dist/react-with-addons.js"></script>
+</head>
+<body>
+
+  <div id="example"></div>
+  <!--
+  変更時にリロードするため、webpack-dev-server scriptを読み込む。
+  webpack dev serverをport8090で動くので、そこに接続する。
+  -->
+  <script src="http://localhost:8090/webpack-dev-server.js"></script>
+<!-- webpackによって生成された、bundle.jsを読み込む
+　このbundleはweppack-dev-serverから出力される
+　-->
+  <script type="text/javascript" src="http://localhost:8090/assets/bundle.js"></script>
+  <!--<script src="./scripts/bundle.js"></script>-->
+</body>
+</html>
