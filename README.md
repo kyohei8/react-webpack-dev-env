@@ -1,6 +1,6 @@
 # React with webpack development environment
 
-Reactをwebpackで動かす開発環境をとりあえず作ったので置いておく...:ant::ant::ant:
+Reactとstylusをwebpackで動かす開発環境をとりあえず作ったので置いておく...:ant::ant::ant:
 
 # Usage
 
