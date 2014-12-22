@@ -2,6 +2,8 @@
 
 Reactとstylusをwebpackで動かす開発環境をとりあえず作ったので置いておく...:ant::ant::ant:
 
+ブログ:http://www.twopipe.com/front-end/2014/12/22/react-webpack-env.html
+
 # Usage
 
 webpackをインストール
